@@ -1,0 +1,4 @@
+show variables like 'slow_query%';
+show variables like 'long_query_time';
+show variables like 'log_slow_admin_statements';
+show variables like 'log_output';

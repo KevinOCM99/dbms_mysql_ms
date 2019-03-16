@@ -1,0 +1,11 @@
+SELECT
+    user,
+    host,
+    password_expired,
+    authentication_string
+FROM
+    mysql.user
+ORDER BY
+        user,host
+~
+

@@ -5,5 +5,5 @@ waiting_query,
 blocking_trx_id,
 blocking_pid,
 blocking_query
-FROM sys.innodb_lock_waits\G;
+FROM sys.innodb_lock_waits \G
 
